@@ -11,6 +11,13 @@ let numb1, numb2;
 let g1;
 let g2;
 let g3;
+req.addEventListener("click", ()=>{
+  let Acertos = document.querySelector(".numbAcertos");
+  let erros = document.querySelector(".numbErros");
+  erros.innerHTML = "";
+
+  Acertos.innerHTML = "";
+} )
 
 req.addEventListener("click", gerarPergunta);
 
@@ -19,6 +26,7 @@ function gerarNumero(min, max) {
 }
 
 function gerarPergunta() {
+
   numero1.innerText = "0";
   numero2.innerText = "0";
   opcao1.innerText = "0";
@@ -125,7 +133,7 @@ gerarPergunta();
 function contadorErros() {
   let erros = document.querySelector(".numbErros");
   let errosAtual = Number(erros.innerText);
-  erros.innerText =  errosAtual + 1;
+  erros.innerText = errosAtual + 1;
 }
 
 function contadorAcertos() {
