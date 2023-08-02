@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  padding: 20px;
+  font-size: 34px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+.alternativas {
+  font-size: 25px;
+  border: none;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.alternativas:hover {
+  transform: scale(1.1);
+  font-size: 27px;
+}
+button {
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 3px;
+  transition: 10ms;
+}
+
+button {
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+
+.green {
+  border: solid 1px green;
+  background-color: rgba(0, 128, 0, 0.068);
+}
+
+.red {
+  border: solid 1px red;
+  background-color: rgba(255, 15, 15, 0.068);
+}
+
+img {
+  width: 50px;
+}
+
+.req {
+  background-color: transparent;
+  transition: 0.3s;
+  border: none;
+}
+img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.acert {
+  box-shadow: 0px 0px 15px rgba(1, 253, 1, 0.733);
+}
+.error {
+  box-shadow: 0px 0px 15px rgba(253, 1, 1, 0.555);
+}
+.info {
+text-align: center;
+}
+.imfoH1 {
+  padding-bottom: 5px;
+}
+#erros {
+  color: rgba(201, 6, 6, 0.979);
+}
+#acertos {
+  color: green;
+}
