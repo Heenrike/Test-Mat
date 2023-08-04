@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+:root {
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: "Open sans", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(dark-background-abstract-background-network-3d-background-5120x2880-8324.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* styles.css */
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.445) 10%,
+    rgba(255, 255, 255, 0.473)
+  );
+  border-radius: 20px;
+}
+
+.calculadora {
+  width: 400px;
+}
+
+.display {
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  background: rgba(255, 255, 255, 0.726);
+  border: none;
+  margin-bottom: 3px;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  border: none;
+  background: rgba(255, 255, 255, 0.726);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #9e9e9e;
+}
+.title {
+  text-align: center;
+  color: #050505;
+}
